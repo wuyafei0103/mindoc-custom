@@ -4,7 +4,6 @@
     "builder": "DOCKERFILE"
   },
   "deploy": {
-    "startCommand": "mindoc",
     "env": {
       "MINDOC_ENABLE_EXPORT": "true",
       "DB_ADAPTER": "sqlite3",
