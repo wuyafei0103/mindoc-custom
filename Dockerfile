@@ -97,7 +97,7 @@ ENV PATH="/opt/calibre:$PATH" \
 RUN ebook-convert --version
 
 # refer: https://docs.docker.com/engine/reference/builder/#volume
-VOLUME ["/mindoc/conf","/mindoc/static","/mindoc/views","/mindoc/uploads","/mindoc/runtime","/mindoc/database"]
+# VOLUME ["/mindoc/conf","/mindoc/static","/mindoc/views","/mindoc/uploads","/mindoc/runtime","/mindoc/database"]
 
 # refer: https://docs.docker.com/engine/reference/builder/#expose
 EXPOSE 8181/tcp
